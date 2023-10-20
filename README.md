@@ -21,10 +21,10 @@ There is no functionality added jet, you can just focus in the **DIMENS** for no
 > **[Theming in Jetpack Compose](https://medium.com/@diegop88/theming-personalizado-con-android-jetpack-compose-8b38fb5f5cfd)** Theming in Jetpack Compose
 
 ### Preview
-![image](./preview/phone_light.png = 400x)
-![image](./preview/phone_dark.png = 400x)
-![image](./preview/tablet_light.png = 400x)
-![image](./preview/tablet_dark.png = 400x)
+![image](./preview/phone_light.png)
+![image](./preview/phone_dark.png)
+![image](./preview/tablet_light.png)
+![image](./preview/tablet_dark.png)
 
 ### Cirilo Bido - Android Developer
 [![Twitter Follow](https://img.shields.io/twitter/follow/cirilobido?style=for-the-badge&logo=twitter&color=blue)](https://twitter.com/cirilobido)
