@@ -23,6 +23,7 @@ There is no functionality added jet, you can just focus in the **DIMENS** for no
 
 ### Preview
 **Phone Portrait Preview:**
+
 <img src="./preview/phone_light.png" alt= "" width="380" height="600" title="Light" />
 
 <img src="./preview/phone_dark.png" alt= "" width="380" height="600" title="Dark" />
