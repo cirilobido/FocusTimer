@@ -23,11 +23,15 @@ There is no functionality added jet, you can just focus in the **DIMENS** for no
 
 ### Preview
 **Phone Portrait Preview:**
-![image](./preview/phone_light.png)
-![image](./preview/phone_dark.png)
+<img src="./preview/phone_light.png" alt= "" width="380" height="600" title="Light" />
+
+<img src="./preview/phone_dark.png" alt= "" width="380" height="600" title="Dark" />
+
 **Tablet Portrait Preview:**
-![image](./preview/tablet_light.png)
-![image](./preview/tablet_dark.png)
+
+<img src="./preview/tablet_light.png" alt= "" width="380" height="600" title="Light" />
+
+<img src="./preview/tablet_dark.png" alt= "" width="380" height="600" title="Dark" />
 
 ### Cirilo Bido - Android Developer
 [![Twitter Follow](https://img.shields.io/twitter/follow/cirilobido?style=for-the-badge&logo=twitter&color=blue)](https://twitter.com/cirilobido)
