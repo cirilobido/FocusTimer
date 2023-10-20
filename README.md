@@ -1,5 +1,5 @@
 
-**Focus Timer App** is an app create with for learning purpose about **DIMENSIONS** in Android using **Jetpack Compose**.
+**Focus Timer** is an Android app created for learning purpose about **DIMENSIONS** in Android using **Jetpack Compose**.
 There is no functionality added jet, you can just focus in the **DIMENS** for now.
 
 > **Tools:** **Jetpack Compose,** **Android Native**, **Kotlin**, **Clean Code**
