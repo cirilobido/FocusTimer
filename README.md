@@ -7,7 +7,8 @@ There is no functionality added jet, you can just focus in the **DIMENS** for no
 > **Design:** **[Design Inspiration](https://dribbble.com/shots/16055446-Focus-Timer)**
 
 **NOTE:** Be sure to read these other resources to get more context about **DIMENS** in Android with **Compose**
-> **Documentation Resources:**
+**Documentation Resources:**
+
 > **[Understanding Layouts - Material3 Design System](https://m3.material.io/foundations/layout/understanding-layout/overview)** 
 
 > **[Applying Layouts - Material3 Design System](https://m3.material.io/foundations/layout/applying-layout/window-size-classes)** 
@@ -18,11 +19,13 @@ There is no functionality added jet, you can just focus in the **DIMENS** for no
 
 > **[Implementing Dimens in Jetpack Compose](https://proandroiddev.com/supporting-different-screen-sizes-on-android-with-jetpack-compose-f215c13081bd)** 
 
-> **[Theming in Jetpack Compose](https://medium.com/@diegop88/theming-personalizado-con-android-jetpack-compose-8b38fb5f5cfd)** Theming in Jetpack Compose
+> **[Theming in Jetpack Compose](https://medium.com/@diegop88/theming-personalizado-con-android-jetpack-compose-8b38fb5f5cfd)**
 
 ### Preview
+**Phone Portrait Preview:**
 ![image](./preview/phone_light.png)
 ![image](./preview/phone_dark.png)
+**Tablet Portrait Preview:**
 ![image](./preview/tablet_light.png)
 ![image](./preview/tablet_dark.png)
 
