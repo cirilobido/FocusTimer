@@ -1,4 +1,4 @@
-package com.cirilobido.focustimer.ui.theme
+package com.cirilobido.focustimer.presentation.theme
 
 import android.app.Activity
 import android.os.Build
@@ -14,7 +14,6 @@ import androidx.compose.runtime.ReadOnlyComposable
 import androidx.compose.runtime.SideEffect
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.staticCompositionLocalOf
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.platform.LocalContext
@@ -24,35 +23,35 @@ import androidx.core.view.WindowCompat
 /*
 Screen Sizes
 */
-private const val COMPACT_SCREEN_WIDTH = 600
-private const val MEDIUM_SCREEN_WIDTH = 839
+internal const val COMPACT_SCREEN_WIDTH = 600
+internal const val MEDIUM_SCREEN_WIDTH = 839
 
 private val LocalDimens = staticCompositionLocalOf { DefaultsDimens }
 
 private val DarkColorScheme = darkColorScheme(
-    primary = Color.White,
-    onPrimary = Color.White,
-    secondary = Color.Gray,
-    onSecondary = Color.Gray,
-    tertiary = Color.LightGray,
-    surface = Color.Black,
-    background = Color.Black,
+    primary = primaryWhite,
+    onPrimary = primaryWhite,
+    secondary = gray,
+    onSecondary = gray,
+    tertiary = lightGray,
+    surface = primaryBlack,
+    background = primaryBlack,
 )
 
 private val LightColorScheme = lightColorScheme(
-    primary = Color.Black,
-    onPrimary = Color.Black,
-    secondary = Color.Gray,
-    onSecondary = Color.Gray,
-    tertiary = Color.LightGray,
-    surface = Color.White,
-    background = Color.White,
+    primary = primaryBlack,
+    onPrimary = primaryBlack,
+    secondary = gray,
+    onSecondary = gray,
+    tertiary = lightGray,
+    surface = primaryWhite,
+    background = primaryWhite,
 )
 
 @Composable
 private fun ProvideDimens(
     dimensions: Dimens,
-    content: @Composable () -> Unit
+    content: @Composable () -> Unit,
 ) {
     val dimensionSet = remember { dimensions }
     CompositionLocalProvider(LocalDimens provides dimensionSet, content = content)
@@ -62,8 +61,8 @@ private fun ProvideDimens(
 fun FocusTimerTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     // Dynamic color is available on Android 12+
-    dynamicColor: Boolean = false,
-    content: @Composable () -> Unit
+    dynamicColor: Boolean = true,
+    content: @Composable () -> Unit,
 ) {
     val colorScheme = when {
         dynamicColor && Build.VERSION.SDK_INT >= Build.VERSION_CODES.S -> {
@@ -109,15 +108,14 @@ fun FocusTimerTheme(
  * Two Ways to get the dimens
  * YOUR_THEME.dimens.YOUR_DIMENSION
  * CurrentDimens.YOUR_DIMENSION
- */
+ * val CurrentDimens: Dimens
+ * @Composable
+ * @ReadOnlyComposable
+ * get() = LocalDimens.current*/
+
 object FocusTimerTheme {
     val dimens: Dimens
         @Composable
         @ReadOnlyComposable
         get() = LocalDimens.current
 }
-
-val CurrentDimens: Dimens
-    @Composable
-    @ReadOnlyComposable
-    get() = LocalDimens.current
