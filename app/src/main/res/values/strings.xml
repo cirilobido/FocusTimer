@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Focus Timer</string>
+    <string name="focus_timer">focus\ntimer</string>
+    <string name="start">Start</string>
+    <string name="reset">Reset</string>
+    <string name="today_rounds">rounds</string>
+    <string name="today_time">time</string>
 </resources>

@@ -1,4 +1,4 @@
-package com.cirilobido.focustimer.ui.theme
+package com.cirilobido.focustimer.presentation.theme
 
 import androidx.compose.runtime.Immutable
 import androidx.compose.ui.unit.Dp
